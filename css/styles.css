@@ -7,24 +7,37 @@
     --hero-background: #2F303A;
     --white-text: #ffffff;
     --main-background: #ffffff;
-    --team-backround:##F5F4FA;
+    --team-backround:#F5F4FA;
     --title-name:#212121;
     --title-text:#757575;
     --footer-color:#2F303A;
 }
+li{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    font-style: normal;
 
+}
+.logo-link{
+    text-decoration: none;
+    
+}
 body{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
     background-color: var(--main-background);
-/* or 171% */
 
-letter-spacing: 0.03em;
 }
 
-
+.active-page{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
 
 
 /*--------- index -----------*/
@@ -67,9 +80,10 @@ color: var(--white-text);
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
+font-family: 'Roboto', sans-serif;
 /* identical to box height, or 188% */
 
-display: flex;
+
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
@@ -182,7 +196,7 @@ color: var(--title-text)
     background: var(--main-background);
 }
 .button {
-
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
